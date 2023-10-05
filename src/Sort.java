@@ -1,11 +1,8 @@
-import java.time.LocalTime;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Main {
+public class Sort {
     public static <T extends Comparable<T>> void bubbleSort(T[] arr){
         int n = arr.length;
         boolean check = true;
